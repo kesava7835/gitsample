@@ -1,5 +1,13 @@
-# hello-world
-Hello World repository for Git tutorial
-This is an example repository for the Git tutoial on https://www.w3schools.com
+<role rolename="manager-gui"/>
 
-This repository is built step by step in the tutorial.
+<role rolename="manager-script"/>
+
+<role rolename="manager-jmx"/>
+
+<role rolename="manager-status"/>
+
+<user username="admin" password="admin" roles="manager-gui, manager- script, manager-jmx, manager-status"/>
+
+<user username="deployer" password="deployer" roles="manager- script"/>
+
+<user username="tomcat" password="s3cret" roles="manager-gui"/>
